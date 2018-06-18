@@ -5,5 +5,6 @@ module.exports = async (ctx, next) => {
     // 具体查看：
     if (ctx.state.$wxInfo.loginState) {
         ctx.state.data = ctx.state.$wxInfo.userinfo
+        console.log('###data :' + ctx.state.$wxInfo.userinfo);
     }
 }

@@ -1,0 +1,55 @@
+/**index.wxss**/
+swiper{
+  height: 340rpx;
+  width: 100%;
+}
+
+swiper image{
+  display: block;
+  width: 100%;
+  height: 340rpx;
+}
+.items-list{
+  padding: 30rpx;
+}
+.pro-item{
+  overflow: hidden;
+}
+.pro-logo{
+  height: 190rpx;
+  width: 190rpx;
+  float: left;
+}
+.pro-body{
+  margin-left: 200rpx;
+}
+.pro-title{
+  color: #212121;
+  font-size: 34rpx;
+  line-height: 1.2;
+}
+.pro-desc{
+  font-size: 34rpx;
+  color: blue;
+  line-height: 1.2;
+}
+.pro-footer{
+  overflow: hidden;
+}
+.btn-detail{
+  float: left;
+  height: 52rpx;
+  width: 170rpx;
+}
+.btn-ask{
+  float: left;
+  height: 52rpx;
+  width: 190rpx;
+  margin-left: 20rpx;
+  padding: 0;
+  line-height: 1;
+}
+.btn-ask image{
+  width: 100%;
+  height: 100%;
+}
